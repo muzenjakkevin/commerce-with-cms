@@ -1,9 +1,7 @@
-import styles from '../styles/Home.module.css'
+import React from "react";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <h1>Homepage works</h1>
-    </div>
-  )
-}
+const index = () => {
+  return <div>Homepage Works</div>;
+};
+
+export default index;
